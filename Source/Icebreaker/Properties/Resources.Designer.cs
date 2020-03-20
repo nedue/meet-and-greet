@@ -19,7 +19,7 @@ namespace Icebreaker.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -79,7 +79,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s most likely because {0} added me to the **{1} Team.**.
+        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s most likely because your team added me to the **{0} Team.**.
         /// </summary>
         internal static string InstallMessageKnownInstallerPart1 {
             get {
@@ -88,7 +88,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I get to help you meet more people around your organization by randomly pairing you with someone new every week. You get to make more friends and learn about the people you work with. It&apos;s a win-win-*win* situation..
+        ///   Looks up a localized string similar to I get to help you meet people in your team by randomly pairing you with someone new every day. This will help to stay connected while we work 100% virtual. Probably you will learn something new about the people you work with. And maybe you make new friends. It&apos;s a win-win situation..
         /// </summary>
         internal static string InstallMessageKnownInstallerPart2 {
             get {
@@ -133,7 +133,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hi there again, I&apos;m {0} in {1}. A bot that pairs you with a new coworker to meet each week. This week your match is {2}..
+        ///   Looks up a localized string similar to Hi there again, I&apos;ve found a nice match for you: {0}. Let&apos;s connect today so reach out via chat or schedule a meeting..
         /// </summary>
         internal static string MatchUpCardContentPart1 {
             get {
@@ -147,6 +147,15 @@ namespace Icebreaker.Properties {
         internal static string MatchUpCardContentPart2 {
             get {
                 return ResourceManager.GetString("MatchUpCardContentPart2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looking for inspiration to start the conversation? Here are some suggestions:.
+        /// </summary>
+        internal static string MatchUpCardConversationStarterTitle {
+            get {
+                return ResourceManager.GetString("MatchUpCardConversationStarterTitle", resourceCulture);
             }
         }
         
