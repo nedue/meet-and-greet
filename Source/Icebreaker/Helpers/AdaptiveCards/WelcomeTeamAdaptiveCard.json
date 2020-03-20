@@ -47,6 +47,11 @@
       "type": "Action.OpenUrl",
       "title": "%tourButtonText%",
       "url": "%tourUrl%"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contribute to code",
+      "url": "%repoUrl%"
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

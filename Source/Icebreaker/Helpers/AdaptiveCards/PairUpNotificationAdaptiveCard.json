@@ -41,6 +41,17 @@
           "type": "TextBlock",
           "text": "%matchUpCardContentPart2%",
           "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "%matchUpCardConversationStarterTitle%",
+          "color": "accent",
+          "wrap":  true
+        },
+        {
+          "type": "TextBlock",
+          "text": "%matchUpCardConversationStarter%",
+          "wrap":  true
         }
       ]
     }
