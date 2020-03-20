@@ -30,26 +30,12 @@ namespace Icebreaker.Helpers.AdaptiveCards
         /// </summary>
         /// <param name="teamName">The team name</param>
         /// <param name="botDisplayName">The bot display name</param>
-        /// <param name="botInstaller">The name of the person that installed the bot</param>
         /// <returns>The welcome team adaptive card</returns>
-        public static string GetCard(string teamName, string botDisplayName, string botInstaller)
+        public static string GetCard(string teamName, string botDisplayName)
         {
-            string teamIntroPart1 = string.Empty;
-            string teamIntroPart2 = string.Empty;
-            string teamIntroPart3 = string.Empty;
-
-            if (string.IsNullOrEmpty(botInstaller))
-            {
-                teamIntroPart1 = string.Format(Resources.InstallMessageUnknownInstallerPart1, teamName);
-                teamIntroPart2 = Resources.InstallMessageUnknownInstallerPart2;
-                teamIntroPart3 = Resources.InstallMessageUnknownInstallerPart3;
-            }
-            else
-            {
-                teamIntroPart1 = string.Format(Resources.InstallMessageKnownInstallerPart1, botInstaller, teamName);
-                teamIntroPart2 = Resources.InstallMessageKnownInstallerPart2;
-                teamIntroPart3 = Resources.InstallMessageKnownInstallerPart3;
-            }
+            string teamIntroPart1 = string.Format(Resources.InstallMessageKnownInstallerPart1, teamName);
+            string teamIntroPart2 = Resources.InstallMessageKnownInstallerPart2;
+            string teamIntroPart3 = Resources.InstallMessageKnownInstallerPart3;
 
             var baseDomain = CloudConfigurationManager.GetSetting("AppBaseDomain");
             var htmlUrl = Uri.EscapeDataString($"https://{baseDomain}/Content/tour.html?theme={{theme}}");
@@ -57,6 +43,7 @@ namespace Icebreaker.Helpers.AdaptiveCards
             var appId = CloudConfigurationManager.GetSetting("ManifestAppId");
             var welcomeCardImageUrl = $"https://{baseDomain}/Content/welcome-card-image.png";
             var tourUrl = $"https://teams.microsoft.com/l/task/{appId}?url={htmlUrl}&height=533px&width=600px&title={tourTitle}";
+            var repoUrl = "https://github.com/Zenulous/microsoft-teams-virtual-coffee-app";
             var salutationText = Resources.SalutationTitleText;
             var tourButtonText = Resources.TakeATourButtonText;
 
@@ -67,6 +54,7 @@ namespace Icebreaker.Helpers.AdaptiveCards
                 { "teamIntroPart3", teamIntroPart3 },
                 { "welcomeCardImageUrl", welcomeCardImageUrl },
                 { "tourUrl", tourUrl },
+                { "repoUrl", repoUrl },
                 { "salutationText", salutationText },
                 { "tourButtonText", tourButtonText }
             };
