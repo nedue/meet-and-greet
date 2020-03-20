@@ -171,12 +171,12 @@ namespace Icebreaker
         /// <param name="teamId">The id of the team that the bot is installed to</param>
         /// <param name="botInstaller">The installer of the application</param>
         /// <returns>Tracking task</returns>
-        public async Task WelcomeTeam(ConnectorClient connectorClient, string teamId, string botInstaller)
+        public async Task WelcomeTeam(ConnectorClient connectorClient, string teamId)
         {
             this.telemetryClient.TrackTrace($"Sending welcome message for team {teamId}");
 
             var teamName = await this.GetTeamNameAsync(connectorClient, teamId);
-            var welcomeTeamMessageCard = WelcomeTeamAdaptiveCard.GetCard(teamName, this.botDisplayName, botInstaller);
+            var welcomeTeamMessageCard = WelcomeTeamAdaptiveCard.GetCard(teamName, this.botDisplayName);
             await this.NotifyTeam(connectorClient, welcomeTeamMessageCard, teamId);
         }
 

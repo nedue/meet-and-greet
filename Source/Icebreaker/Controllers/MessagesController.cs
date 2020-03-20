@@ -200,7 +200,7 @@ namespace Icebreaker
                                 var personThatAddedBot = teamMembers.FirstOrDefault(x => x.Id == message.From.Id)?.Name;
 
                                 await this.bot.SaveAddedToTeam(message.ServiceUrl, teamId, tenantId, personThatAddedBot);
-                                await this.bot.WelcomeTeam(connectorClient, teamId, personThatAddedBot);
+                                await this.bot.WelcomeTeam(connectorClient, teamId);
                             }
                             else
                             {
