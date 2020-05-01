@@ -79,7 +79,11 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s most likely because your team added me to the **{0} Team.**.
+        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s most likely because your team added me to the **{0} Team.**
+        ///
+        ///We&apos;re looking to help you get better acquainted to people in our team by randomly pairing you with someone new every two weeks. This will help us to stay connected as a global team. 
+        ///
+        ///You will learn something new about the people you work with and maybe make new friends :) !.
         /// </summary>
         internal static string InstallMessageKnownInstallerPart1 {
             get {
@@ -88,7 +92,11 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I get to help you meet people in your team by randomly pairing you with someone new every day. This will help to stay connected while we work 100% virtual. Probably you will learn something new about the people you work with. And maybe you make new friends. It&apos;s a win-win situation..
+        ///   Looks up a localized string similar to 1. Connect with your colleagues &amp; build better work relationships
+        ///
+        ///2. Discuss about common interests, hobbies and new projects
+        ///
+        ///3. Learn who they are, their values, and what is important to them in and outside of work.
         /// </summary>
         internal static string InstallMessageKnownInstallerPart2 {
             get {
@@ -97,7 +105,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **To meet new people, just hang tight. I&apos;ll send you an invite soon.**.
+        ///   Looks up a localized string similar to **To get acquainted with another team member, just hang tight. I&apos;ll send you an invite soon.**.
         /// </summary>
         internal static string InstallMessageKnownInstallerPart3 {
             get {
@@ -106,7 +114,11 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s because I was installed to **{0} Team.** .
+        ///   Looks up a localized string similar to If you&apos;re reading this, it&apos;s most likely because your team added me to the **{0} Team.**
+        ///
+        ///We&apos;re looking to help you get better acquainted to people in our team by randomly pairing you with someone new every two weeks. This will help us to stay connected as a global team. 
+        ///
+        ///You will learn something new about the people you work with and maybe make new friends :) !.
         /// </summary>
         internal static string InstallMessageUnknownInstallerPart1 {
             get {
@@ -115,7 +127,14 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I get to help you meet people in your team by randomly pairing you with someone new every day. This will help to stay connected while we work 100% virtual. Probably you will learn something new about the people you work with. And maybe you make new friends. It&apos;s a win-win situation..
+        ///   Looks up a localized string similar to You spend more waking hours with your colleagues than with anyone else.
+        ///It&apos;s time to take a coffee break and get you know your colleagues better!
+        ///
+        ///1. Connect with your colleagues &amp; build better work relationships
+        ///
+        ///2. Discuss about common interests, hobbies and new projects
+        ///
+        ///3. Learn who they are, their values, and what is important to them in and outside of work.
         /// </summary>
         internal static string InstallMessageUnknownInstallerPart2 {
             get {
@@ -133,7 +152,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hi there again, I&apos;ve found a nice match for you: {0}. Let&apos;s connect today so reach out via chat or schedule a meeting..
+        ///   Looks up a localized string similar to Hi there again, I&apos;ve found a nice match for you: {0}. Let&apos;s connect this week so reach out via chat or schedule a meeting..
         /// </summary>
         internal static string MatchUpCardContentPart1 {
             get {
@@ -178,7 +197,7 @@ namespace Icebreaker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hey there, looks like we&apos;ve been matched by {0}. It&apos;d be great to meet today if you&apos;ve got time..
+        ///   Looks up a localized string similar to Hey there, looks like we&apos;ve been matched by {0}. It&apos;d be great to meet this week if you&apos;ve got time..
         /// </summary>
         internal static string MeetupContent {
             get {
