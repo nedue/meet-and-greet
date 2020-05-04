@@ -20,7 +20,7 @@
         "appName": {
             "type": "string",
             "minLength": 1,
-            "defaultValue": "Icebreaker",
+            "defaultValue": "Meet and Greet",
             "metadata": {
                 "description": "The app name to use for the resources that will be provisioned."
             }
