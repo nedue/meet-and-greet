@@ -42,7 +42,7 @@ namespace Icebreaker.Helpers.AdaptiveCards
             var tourTitle = Resources.WelcomeTourTitle;
             var appId = CloudConfigurationManager.GetSetting("ManifestAppId");
             var welcomeCardImageUrl = $"https://{baseDomain}/Content/welcome-card-image.png";
-            var tourUrl = $"https://github.com/OfficeDev/microsoft-teams-icebreaker-app/wiki/images/IcebreakerScheduling.gif";
+            var tourUrl = $"https://teams.microsoft.com/l/task/{appId}?url={htmlUrl}&height=533px&width=600px&title={tourTitle}";
             var repoUrl = "https://github.com/Maria1004/meet-and-greet";
             var salutationText = Resources.SalutationTitleText;
             var tourButtonText = Resources.TakeATourButtonText;
