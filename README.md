@@ -1,17 +1,18 @@
-# Virtual Coffee App
+# Meet and Greet App
 
-The Virtual Coffee App is a re-branding of the Icebreaker Teams Template. The main differentiator is that this is aimed towards fully remote teams. To ensure remote meetings are still fun, the bot proposes three conversation starters for every match. Examples are:
+Meet and Greet App is a re-branding of the Icebreaker Teams Template with added improvements of The Virtual Coffee App. The main differentiator is that this is aimed towards fully remote teams and has adapted texts more suitable to this team.
+It also incorporated the questions from Virtual Coffee App. Examples are:
 
 * What is the most stressful TV show or movie you watched?
 * If life was a simulation, which update or patch should be implemented?
 
-# Code Deviations from Icebreaker
+# Code Deviations from Icebreaker and Virtual Coffee App
 
 Since most changes are textual, this fork is a very high-level rebranding of Icebreaker. For example, all code references still use the Icebreaker project name. Most of the changes simply replaced existing strings and most code modifications are additions to the template codebase.
 
 # Credits
 
-The current bot icon is made by *iconixar* from [www.flaticon.com](http://www.flaticon.com/)
+The current bot icon is made by *Freepik* from [www.flaticon.com](http://www.flaticon.com/)
 
 # Icebreaker App Template
 
