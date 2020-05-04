@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
   "manifestVersion": "1.3",
   "version": "1.0.0",
-  "id": "8fc467d8-2724-4dc5-9bdb-9cfbe0004727",
-  "packageName": "com.microsoft.teams.virtualcoffeemachine",
+  "id": "3b9172a5-14c5-4293-93ea-1451b45be935",
+  "packageName": "com.microsoft.teams.meetandgreetapp",
   "developer": {
     "name": "Microsoft",
     "websiteUrl": "https://www.microsoft.com/en-us",
@@ -24,7 +24,7 @@
   "accentColor": "#64A2CC",
   "bots": [
     {
-      "botId": "17b3ac17-e43e-4bbe-a6e0-4ef5a5563974",
+      "botId": "3b9172a5-14c5-4293-93ea-1451b45be935",
       "scopes": [
         "personal",
         "team"
@@ -38,6 +38,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "icebreaker-azvc7cuxfhavq.azurewebsites.net"
+    "meetandgreet-o2gnvigym4zgy.azurewebsites.net"
   ]
 }
