@@ -5,26 +5,26 @@
   "id": "8fc467d8-2724-4dc5-9bdb-9cfbe0004727",
   "packageName": "com.microsoft.teams.virtualcoffeemachine",
   "developer": {
-    "name": "<company name>",
-    "websiteUrl": "<website url>",
-    "privacyUrl": "<privacy url>",
-    "termsOfUseUrl": "<terms of use url>"
+    "name": "Microsoft",
+    "websiteUrl": "https://www.microsoft.com/en-us",
+    "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Virtual Coffee Machine"
+    "short": "Meet and Greet App"
   },
   "description": {
-    "short": "Virtual Coffee Machine is a bot that randomly pairs team members up to build team unity.",
-    "full": "Virtual Coffee Machine is a cute little bot that randomly pairs team members up to help the team build trust and personal connections."
+    "short": "Meet and Greet is a bot that randomly pairs team members up to build team unity.",
+    "full": "Meet and Greet is a cute little bot that randomly pairs team members up to help the team build trust and personal connections."
   },
   "accentColor": "#64A2CC",
   "bots": [
     {
-      "botId": "<bot id>",
+      "botId": "17b3ac17-e43e-4bbe-a6e0-4ef5a5563974",
       "scopes": [
         "personal",
         "team"
@@ -38,6 +38,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<app domain>"
+    "icebreaker-azvc7cuxfhavq.azurewebsites.net"
   ]
 }
